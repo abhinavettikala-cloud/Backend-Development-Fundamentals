@@ -1,0 +1,15 @@
+{
+  "name": "bdf-lab-01",
+  "version": "1.0.0",
+  "description": "Lab 1: Node.js and Express server",
+  "private": true,
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node http-server.js"
+  },
+  "author": "Abhinav",
+  "license": "UNLICENSED",
+  "dependencies": { "express": "^5.1.0" }
+}
