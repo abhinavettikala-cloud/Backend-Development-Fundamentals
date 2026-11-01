@@ -21,6 +21,9 @@ function validateBook(req, res, next) {
     req.book = [title.trim(), author.trim(), price, pages];
     next();
 }
+app.get('/', (req, res) => {
+    res.redirect('/books/');
+});
 app.get('/books/', async (req, res) => {
     res.json(await db.all('SELECT * FROM book ORDER BY id'));
 });
