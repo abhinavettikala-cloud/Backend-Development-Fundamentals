@@ -75,6 +75,7 @@ GET /unknown -> 404
 ## Screenshots
 
 ![Welcome route — GET / returns 200](screenshots/route_root.png)
+![Hello route — GET /hello returns 200](screenshots/route_hello.png)
 ![About route — GET /about returns 200 JSON](screenshots/route_about.png)
 ![Time route — GET /time returns 200 JSON](screenshots/route_time.png)
 ![Unknown route — GET /nonexistent returns 404](screenshots/route_404.png)
