@@ -5,7 +5,7 @@
 | Student detail | Value |
 | --- | --- |
 | Name | Abhinav |
-| Registration number | YOUR_REGISTRATION_NUMBER |
+| Registration number | 252U1R6065|
 | Section | AIML_2B_207 |
 | Course | Backend Development Fundamentals |
 

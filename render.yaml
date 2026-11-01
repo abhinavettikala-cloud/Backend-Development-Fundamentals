@@ -6,3 +6,4 @@ services:
     rootDir: lab-01
     buildCommand: npm install
     startCommand: npm start
+
