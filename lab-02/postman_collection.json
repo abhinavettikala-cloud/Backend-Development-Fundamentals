@@ -1,0 +1,73 @@
+{
+  "info": {
+    "name": "Lab 02 Books CRUD",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "bookId",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "All books",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/books/"
+      }
+    },
+    {
+      "name": "One book",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/books/{{bookId}}/"
+      }
+    },
+    {
+      "name": "Add book",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/books/",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Practical Backend Development\",\n  \"author\": \"A. Rao\",\n  \"price\": 450,\n  \"pages\": 250\n}"
+        }
+      }
+    },
+    {
+      "name": "Update book",
+      "request": {
+        "method": "PUT",
+        "url": "{{baseUrl}}/books/{{bookId}}/",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Practical Backend Development\",\n  \"author\": \"A. Rao\",\n  \"price\": 550,\n  \"pages\": 250\n}"
+        }
+      }
+    },
+    {
+      "name": "Delete book",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/books/{{bookId}}/"
+      }
+    }
+  ]
+}
