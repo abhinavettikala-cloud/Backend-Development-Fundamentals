@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
     res.status(200).send("Welcome to my Node.js and Express server!");
 });
 
+app.get("/hello", (req, res) => {
+    res.status(200).send("Hello");
+});
+
 app.get("/about", (req, res) => {
     res.status(200).json({ name: "Abhinav", section: "AIML_2B_207" });
 });

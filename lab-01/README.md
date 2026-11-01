@@ -48,6 +48,7 @@ These routes apply to the Express server:
 | Method | Path | Description | Expected status |
 | --- | --- | --- | --- |
 | GET | `/` | Returns welcome text | 200 |
+| GET | `/hello` | Returns hello text | 200 |
 | GET | `/about` | Returns name and section as JSON | 200 |
 | GET | `/time` | Returns the current date/time as JSON in ISO 8601 UTC format | 200 |
 | GET | `/unknown` | Demonstrates the fallback for unknown paths | 404 |
