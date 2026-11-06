@@ -3,8 +3,8 @@
 ## Student Details
 
 - **Name:** Abhinav
-- **Registration Number:** YOUR_REGISTRATION_NUMBER
-- **Section:** YOUR_SECTION
+- **Registration Number:**   252U1R6065
+- **Section:** AIML-2B 
 
 ## Live Deployment
 
